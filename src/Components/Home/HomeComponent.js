@@ -38,10 +38,8 @@ function HomeComponent() {
     </div>
        
       
-    <div className="relative w-full h-screen">
-  <ScrollingOffer />
-</div>
-          {/* <ScrollingOffer/> */}
+          
+          <ScrollingOffer/>
         <Marquee/>
         <ImagePage/>
         <BestsellerSection/>
