@@ -5,9 +5,9 @@ import Link from "next/link";
 
 export default function BackgroundImageText() {
   return (
-    <div className="relative h-screen w-full overflow-hidden flex items-center justify-center text-white">
+    <div className=" h-screen w-full overflow-hidden flex items-center justify-center text-white">
       <Image src={img} alt="Background" layout="fill" objectFit="cover" className="absolute inset-0" />
-      <div className="relative z-10 text-center px-6">
+      <div className=" z-10 text-center px-6">
       <h2 className="text-4xl font-bold">Exclusive Fashion Sale</h2>
         <h3 className="text-2xl mt-2">MindMatrix Care Special Collection</h3>
         <p className="mt-4 max-w-lg">
