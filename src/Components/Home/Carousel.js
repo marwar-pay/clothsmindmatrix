@@ -14,8 +14,8 @@ export default function ImageCarousel() {
             className="d-block w-100"
             src={img}
             alt="Second slide"
-            style={{ height: '500px', objectFit: 'cover' }} // Set fixed height and cover
-          />
+            style={{ backgroundSize: 'cover' ,width:"100%",backgroundRepeat:"no-repeat" }} />
+         
        
         </Carousel.Item>
 
@@ -24,8 +24,7 @@ export default function ImageCarousel() {
             className="d-block w-100"
             src={img1}
             alt="Third slide"
-            style={{ height: '500px', objectFit: 'cover' }} // Set fixed height and cover
-          />
+            style={{ backgroundSize: 'cover' ,width:"100%",backgroundRepeat:"no-repeat" }} />
     
         </Carousel.Item>
 
@@ -34,8 +33,7 @@ export default function ImageCarousel() {
             className="d-block w-100"
             src={img2}
             alt="Fourth slide"
-            style={{ height: '500px', objectFit: 'cover' }} // Set fixed height and cover
-          />
+            style={{ backgroundSize: 'cover' ,width:"100%",backgroundRepeat:"no-repeat" }} />
       
         </Carousel.Item>
       </Carousel>
